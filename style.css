@@ -29,6 +29,28 @@ body {
 
 .controls {
   margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.controls .controls__range {
+  margin-bottom: 10px;
+}
+.controls .controls__btns {
+  margin-bottom: 30px;
+}
+
+.controls__btns button {
+  all: unset;
+  padding: 0 13px 0 10px;
+  font-size: 30px;
+  cursor: pointer;
+}
+.controls__btns button:hover {
+  background-color: var(--color-orange);
+  border-radius: 4px;
+  transition-duration: 500ms;
 }
 
 .controls .controls__colors {

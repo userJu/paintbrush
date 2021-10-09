@@ -1,0 +1,45 @@
+:root {
+  --color-dark-brown: #2e1d1e;
+  --color-chocolate-brown: #694834;
+  --color-light-brown: #b18c70;
+  --color-dark-beige: #d9c9b4;
+  --color-warm-gray: #e1dad4;
+  --color-cool-gray: #eaeaea;
+  --color-lavender: #9d9db9;
+  --color-orange: #f2c39c;
+  --color-right-pink: #eedddc;
+}
+
+body {
+  background-color: var(--color-cool-gray);
+  font-family: "Ephesis", cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  margin: 0;
+}
+.canvas {
+  width: 700px;
+  height: 700px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.controls {
+  margin-top: 80px;
+}
+
+.controls .controls__colors {
+  display: flex;
+}
+
+.controls__colors .controls__color {
+  width: 50px;
+  height: 50px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}

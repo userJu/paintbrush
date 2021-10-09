@@ -8,6 +8,8 @@ const mode = document.querySelector('#jsMode');
 canvas.width = 700;
 canvas.height = 700;
 
+ctx.fillStyle = "white"
+ctx.fillRect(0, 0, 700, 700)
 ctx.strokeStyle= "#2c2c2c"
 ctx.fillStyle="#2c2c2c"
 ctx.lineWidth = 2.5;
